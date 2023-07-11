@@ -1,0 +1,39 @@
+@media(max-width:1366px){
+    .cabecalho .logo{
+        max-width: 190px;
+        max-height: 95px;
+    }
+    
+    .selecao-de-personagens {
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+        /*centraliza o objeto que já possui largura, ao inves de usar display flex*/
+    }
+    
+    .selecao-de-personagens .personagens .titulo{
+        font-size: 18px;
+        margin-top:-30px;
+        margin-bottom: -20px;
+    }
+    .selecao-de-personagens .lista-de-personagens{
+        gap:9px;
+    }
+    .selecao-de-personagens .personagem img{
+        width: 100px;
+    }
+    .personagem-selecionado .personagem-grande{
+        
+        margin-top:10px
+    }
+    .personagem-selecionado .descricao-personagem{
+        width: 80%;
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin:10px auto;
+    }
+    .personagem-selecionado .nome-personagem{
+        margin-top: 10px;
+    }
+    
+} 

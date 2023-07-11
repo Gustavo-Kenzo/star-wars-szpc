@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto: Star Wars</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Nunito+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo-star-wars4.png" width="266px" alt="Star Wars">
+    </header>
+
+    <main class="selecao-de-personagens">
+
+        <section class="personagens">
+
+            <h1 class="titulo">Selecione um personagem</h1>
+
+            <ul class="lista-de-personagens">
+
+                <li class="personagem selecionado" data-name="BB-8" id="bb8" data-description="Droide astromecânico da série BB que operou aproximadamente trinta anos depois da Batalha de Endor. Pertencia ao piloto da Resistência Poe Dameron, a quem ele acompanhou durante seus vôos em seu caça estelar T-70X X-wing.">
+                    <img src="./src/imagens/BB-8.png" width="173px" alt="Personagem BB-8">
+                </li>
+
+                <li class="personagem" data-name="Darth Vader"  id="darth-vader" data-description="Originalmente cavaleiro Jedi de alto escalão que lutou pela República Galáctica e também o Escolhido, indivíduo profetizado que destruiria os Sith e traria equilíbrio à Força. No entanto, no final das Guerras Clônicas, se voltou para o lado sombrio e se tornou um poderoso Lorde Sith.">
+                    <img src="./src/imagens/darth-vader.png" width="173px" alt="Personagem Darth Vader">
+                </li>
+                <li class="personagem" data-name="Finn" data-description="Humano sensível à Força que serviu como Stormtrooper da Primeira Ordem. Ele foi considerado um dos melhores Stormtroopers do grupo antes de se juntar à Resistência, onde ganhou o nome de Finn como sugestão do piloto da Resistência Poe Dameron, baseado em sua designação Stormtrooper FN-2187."  id="finn">
+                    <img src="./src/imagens/finn.png" width="173px" alt="Personagem Finn">
+                </li>
+                <li class="personagem" data-name="Kylo Ren" data-description="Filho dos heróis Rebeldes Leia Organa e Han Solo, foi treinado como aprendiz Jedi por seu tio, Luke Skywalker. Entretanto, foi atraído pelo lado sombrio por influência do misterioso usuário da Força chamado Snoke e se tornou obcecado por assumir o legado do seu avô, Darth Vader" id="kylo-ren">
+                    <img src="./src/imagens/kylo-ren.png" width="173px" alt="Personagem Kylo Ren">
+                </li>
+                <li class="personagem" data-name="Poe Dameron" data-description="Serviu como piloto na Nova República, seguindo os passos da sua falecida mãe, e, devido a inação da República às violações da Primeira Ordem, se juntou à Resistência, onde se tornou um dos agentes de maior confiança da General Leia Organa." id="poe-dameron">
+                    <img src="./src/imagens/poe-dameron.png" width="173px" alt="Personagem Poe Dameron">
+                </li>
+                <li class="personagem" data-name="Rey" data-description="Catadora de sucata nativa de Jakku que descobriu ser sensível à Força durante sua busca ao lendário Mestre Jedi Luke Skywalker, a fim de trazer uma nova esperança à galáxia à beira da guerra"  id="rey">
+                    <img src="./src/imagens/rey.png" alt="Personagem Rey" width="173px">
+                </li>
+                <li class="personagem" data-name="Luke Skywalker"  id="luke-skywalker" data-description="Lendário Mestre Jedi que lutou na Guerra Civil Galáctica durante o reinado do Império. Junto com Leia Organa (irmã) e Han Solo, Skywalker serviu como um revolucionário ao lado da Aliança para Restauração da República. Após a guerra, se tornou uma lenda viva e foi lembrado como um dos maiores Jedi da história galáctica.">
+                    <img src="./src/imagens/luke-skywalker.png " width="173px" alt="Personagem Luke Skywalker">
+                </li>
+                <li class="personagem" data-name="Yoda" data-description="Lendário Mestre Jedi, pequeno em estatura, mas reverenciado por sua sabedoria e poder, que treinou várias gerações de Jedi. Exerceu um papel integral na defesa da República durante as Guerras Clônicas, sobreviveu à Ordem 66 e viveu para transmitir a tradição Jedi a Luke Skywalker e abrir o caminho para a imortalidade." id="yoda">
+                    <img src="./src/imagens/yoda.png" width="173px" alt="Personagem Yoda">
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-bb8.png" height="429px" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+
+                <h2 class="nome-personagem" id="nome-personagem">BB-8</h2>
+
+                <p class="descricao-personagem" id="descricao-personagem">Droide
+                    astromecânico da série BB que operou aproximadamente trinta anos depois da Batalha de Endor. Pertencia ao piloto da Resistência Poe Dameron, a quem ele acompanhou durante seus vôos em
+                    seu caça estelar T-70X X-wing.</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="./src/js/index.js"></script>
+</html>
